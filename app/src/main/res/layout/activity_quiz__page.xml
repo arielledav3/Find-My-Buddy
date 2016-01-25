@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.arielledavenport.davenportfinal.Quiz_Page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fbfbee">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/question_1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Where do you live?"
+                android:textColor="#8C001A"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/q_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Big City (i.e New York, Los Angeles, Chicago, etc.."/>
+            <RadioButton
+                android:id="@+id/q_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suburbs (i.e Subdivisions, Minivans, e.t.c)"/>
+            <RadioButton
+                android:id="@+id/q_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country (i.e lots of space and acres"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/question_2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Do you want a cat or dog?"
+                android:textColor="#8C001A"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/q_2a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cat"/>
+            <RadioButton
+                android:id="@+id/q_2b"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Dog"/>
+        </RadioGroup>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/question_3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="What's your activity level?"
+                android:textStyle="bold"
+                android:textColor="#8C001A" />
+            <RadioButton
+                android:id="@+id/q_3a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="High (You exercise multiple times a week)"/>
+            <RadioButton
+                android:id="@+id/q_3b"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Moderate (On the go and excercise once a week)"/>
+            <RadioButton
+                android:id="@+id/q_3c"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Low (you like Netflix and video games)"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/question_4">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="How many hours do you plan for your pet to be alone?"
+                android:textColor="#8C001A"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/q_4a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4 or Less a day"/>
+            <RadioButton
+                android:id="@+id/q_4b"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4-8hours a day"/>
+            <RadioButton
+                android:id="@+id/q_4c"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="8hours or More a day"/>
+
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_gravity="right"
+            android:background="#FF4500" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

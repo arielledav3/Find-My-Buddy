@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DavenportFinal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main_quiz">MainQuizActivity</string>
+    <string name="title_activity_quiz__page">Quiz_Page</string>
+    <string name="title_activity_results__page">Results_Page</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
